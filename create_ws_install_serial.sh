@@ -23,8 +23,9 @@ then
  source devel/setup.bash 
  
  
- echo $ROS_PACKAGE_PATH
- 
+echo $ROS_PACKAGE_PATH
+echo 'installing rosserial' 
+
 sudo apt-get install ros-kinetic-rosserial-arduino
 
 
