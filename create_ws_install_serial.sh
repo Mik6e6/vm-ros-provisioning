@@ -26,9 +26,9 @@ then
 echo $ROS_PACKAGE_PATH
 echo 'installing rosserial' 
 
-sudo apt-get install ros-kinetic-rosserial-arduino
+sudo apt-get install ros-kinetic-rosserial-arduino -y 
 
 
-sudo apt-get install ros-kinetic-rosserial
+sudo apt-get install ros-kinetic-rosserial -y
 
 
